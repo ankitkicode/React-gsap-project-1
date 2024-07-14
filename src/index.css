@@ -1,0 +1,23 @@
+/* Reset styles */
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+/* Typography */
+body,html {
+  height: 100%;
+  width: 100%;
+  background-color: #1b1b1b;
+  font-family: Agency FB;
+}
+
+/* Colors */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+}
+
+

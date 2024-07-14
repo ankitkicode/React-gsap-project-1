@@ -1,0 +1,87 @@
+@font-face {
+    font-family: bigilla;
+    src: url(./assets/Bigilla-Bold.otf);
+}
+@font-face {
+    font-family: bigilla-blod;
+    src: url(./assets/Bigilla.otf);
+}
+.content{
+    font-family: bigilla ;
+   padding-left:5% ;
+   padding-right:2% ;
+   padding-top: 2%;
+    color: #fff;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+}
+.content .left{
+   
+    width: 40%;
+    height: 100%;
+    float: left;
+    /* background-color: #333; */
+    padding: 10px;
+}
+.left h1{
+    font-family: bigilla ;
+    font-size: 2.5rem;
+}
+.left p{
+    font-family: bigilla ;
+    margin-top: 5%;
+}
+.left button{
+    margin-top: 25%;
+    padding: 10px 30px;
+    background-color: #333;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.right{
+    height: 100%;
+    width: 60%;
+    /* background-color: red; */
+}
+.right .img1{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    height: 250px;
+    width: 200px;
+    background-image: url('./assets/img3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+}
+.right .img2{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    height: 250px;
+    width: 200px;
+    background-image: url('./assets/img2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+}
+.right .img3{
+    position: absolute;
+   top: 18%;
+    right: 3%;
+    height: 150px;
+    width: 250px;
+    background-image: url('./assets/img1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
